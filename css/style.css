@@ -1,0 +1,112 @@
+.body {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgb(74, 74, 74);
+}
+
+.logo{
+    height: 4.5dvw;
+}
+.Font24{
+    font-size: 1.5dvw;
+}
+.Font32{
+    font-size: 2.5dvw;
+}
+.Font28{
+    font-size: 1.7dvw;
+}
+
+.Font42{
+    font-size: 42px;
+}
+
+.Font52{
+    font-size: 3dvw;
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerLeft {
+    left: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.colmar {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+   
+}
+
+.academy {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 300;
+    color: rgb(158, 158, 158);
+     
+}
+
+.bannerRight {
+    display: flex;
+    position: relative;
+    right: 24px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.Ban16 {
+    width: 16px;
+}
+
+
+.Slab1{
+background-color: rgb(216,216,216);
+    display: flex;
+    position: relative;
+}
+
+.Slab1Left{
+    width: 60%;
+    margin: 32px 24px 32px 24px;
+}
+
+.Bold{
+    font-weight: bold;
+}
+
+.BanFoto{
+    width: 100%;
+    
+    display: flex;
+    position: relative;
+}
+
+.Slab1txt{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 30%;
+    
+}
+
+.Slab1Start{
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px 8px 0px;
+    color: white;
+}
+
+.Button{
+   background-color: rgb(74,74,74);
+}
