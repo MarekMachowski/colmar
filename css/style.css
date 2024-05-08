@@ -13,7 +13,7 @@
     font-size: 2.5dvw;
 }
 .Font28{
-    font-size: 1.7dvw;
+    font-size: 1.6dvw;
 }
 
 .Font42{
@@ -21,7 +21,7 @@
 }
 
 .Font52{
-    font-size: 3dvw;
+    font-size: 3.05dvw;
 }
 
 .banner {
@@ -82,9 +82,8 @@ background-color: rgb(216,216,216);
     font-weight: bold;
 }
 
-.BanFoto{
+.Slab1Foto{
     width: 100%;
-    
     display: flex;
     position: relative;
 }
