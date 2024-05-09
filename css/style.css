@@ -1,7 +1,8 @@
-.body {
+html {
     font-family: Verdana, Tahoma, sans-serif;
     color: rgb(74, 74, 74);
 }
+
 
 .logo{
     height: 4.5dvw;
@@ -16,17 +17,23 @@
     font-size: 1.6dvw;
 }
 
-.Font42{
-    font-size: 42px;
-}
 
 .Font52{
     font-size: 3.05dvw;
+}
+.MarginAll16{
+margin: 1dvw;
 }
 
 .Margin24Bottom{
 margin-bottom: 1.5dvw;
 }
+
+.Margin8Bottom{
+    margin-bottom: 0.5dvw;
+    }
+
+
 .banner {
     display: flex;
     position: relative;
@@ -66,7 +73,7 @@ margin-bottom: 1.5dvw;
 }
 
 .Ban16 {
-    width: 16px;
+    width: 1dvw;
 }
 
 
@@ -91,7 +98,7 @@ background-color: rgb(216,216,216);
     position: relative;
 }
 
-.Slab1txt{
+.Slab1Right{
     display: flex;
     position: relative;
     flex-direction: column;
@@ -105,7 +112,7 @@ background-color: rgb(216,216,216);
 .Slab1Start{
     display: flex;
     justify-content: center;
-    padding: 8px 0px 8px 0px;
+    padding: 0.6dvw 0dvw 0.6dvw 0dvw;
     color: white;
 }
 
@@ -119,22 +126,55 @@ background-color: rgb(216,216,216);
 
     
 }
-.Slab2Foto{
-    width: 100%;
-    display: flex;
-    position: relative;
-    margin: 2.5dvw 1.5dvw 2.5dvw  1.5dvw;
-}
-
 .Slab2Left{
     display: flex;
     position: relative;
     width: 60%;
     flex-direction: column;
+    margin: 0dvw  1.5dvw 2.5dvw  1.5dvw;
 }
+.Slab2LeftFoto{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 2.5dvw 1.5dvw 2.5dvw  0dvw;
+}
+
+
 .Slab2Lefttxt{
     display: flex;
     position: relative;
     flex-direction: column;
-    margin: 0px  1.5dvw 2.5dvw  1.5dvw;
+    margin: 0dvw  1.5dvw 2.5dvw  0dvw;
+}
+
+.Slab2Right{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 0.2dvw;
+    border: 2px solid red;
+    margin: 1.5dvw  1.5dvw 2.5dvw  1.5dvw;
+}
+
+.Slab2RightSlabs{
+    display: flex;
+     
+   
+
+}
+.Slab2RightSlabsTxt{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    width: 65%;
+    margin: 2.5dvw  1.5dvw 2.5dvw  1.5dvw;
+}
+.Slab2RightSlabsFoto{
+    width: 35%;
 }
