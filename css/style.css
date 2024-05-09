@@ -24,16 +24,19 @@
     font-size: 3.05dvw;
 }
 
+.Margin24Bottom{
+margin-bottom: 1.5dvw;
+}
 .banner {
     display: flex;
     position: relative;
-    height: 64px;
+    height: 5dvw;
     justify-content: space-between;
     align-items: center;
 }
 
 .bannerLeft {
-    left: 24px;
+    left:  1.5dvw;
     position: relative;
     display: flex;
     align-items: center;
@@ -57,7 +60,7 @@
 .bannerRight {
     display: flex;
     position: relative;
-    right: 24px;
+    right:  1.5dvw;
     font-weight: 500;
     align-items: center;
 }
@@ -75,7 +78,7 @@ background-color: rgb(216,216,216);
 
 .Slab1Left{
     width: 60%;
-    margin: 32px 24px 32px 24px;
+    margin: 2.5dvw  1.5dvw 2.5dvw  1.5dvw;
 }
 
 .Bold{
@@ -108,4 +111,30 @@ background-color: rgb(216,216,216);
 
 .Button{
    background-color: rgb(74,74,74);
+}
+
+.Slab2{
+    display: flex;
+    position: relative;
+
+    
+}
+.Slab2Foto{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 2.5dvw 1.5dvw 2.5dvw  1.5dvw;
+}
+
+.Slab2Left{
+    display: flex;
+    position: relative;
+    width: 60%;
+    flex-direction: column;
+}
+.Slab2Lefttxt{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0px  1.5dvw 2.5dvw  1.5dvw;
 }
