@@ -1,5 +1,5 @@
 html {
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
     color: rgb(74, 74, 74);
 }
 
@@ -7,19 +7,29 @@ html {
 .logo{
     height: 4.5dvw;
 }
+
+.Font18{
+    font-size: 1.2dvw;
+}
 .Font24{
-    font-size: 1.5dvw;
+    font-size: 1.4dvw;
 }
 .Font32{
+    font-size: 1.8dvw ;
+}
+.Font36{
     font-size: 2.5dvw;
 }
 .Font28{
     font-size: 1.6dvw;
 }
 
+.Font42{
+    font-size: 2.7dvw;
+}
 
 .Font52{
-    font-size: 3.05dvw;
+    font-size: 3.2dvw;
 }
 .MarginAll16{
 margin: 1dvw;
@@ -49,8 +59,18 @@ margin-bottom: 1.5dvw;
     align-items: center;
 }
 
+.hover:hover{
+   
+        color: hotpink;
+}
 
+.hover{
+    text-decoration: none;
 
+}
+.StartColor{
+    color:white
+}
 .colmar {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 700;
@@ -84,7 +104,7 @@ background-color: rgb(216,216,216);
 }
 
 .Slab1Left{
-    width: 60%;
+    width: 55%;
     margin: 2.5dvw  1.5dvw 2.5dvw  1.5dvw;
 }
 
@@ -129,15 +149,15 @@ background-color: rgb(216,216,216);
 .Slab2Left{
     display: flex;
     position: relative;
-    width: 60%;
+    width: 55%;
     flex-direction: column;
     margin: 0dvw  1.5dvw 2.5dvw  1.5dvw;
 }
 .Slab2LeftFoto{
-    width: 100%;
+    
     display: flex;
     position: relative;
-    margin: 2.5dvw 1.5dvw 2.5dvw  0dvw;
+    margin: 2.5dvw 0dvw 2.5dvw  0dvw;
 }
 
 
@@ -154,9 +174,10 @@ background-color: rgb(216,216,216);
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    border: 0.2dvw;
-    border: 2px solid red;
-    margin: 1.5dvw  1.5dvw 2.5dvw  1.5dvw;
+    
+    border: 0.1dvw solid rgb(216,216,216);
+    margin: 1.5dvw  0dvw 2.5dvw  0dvw;
+    width: 45%;
 }
 
 .Slab2RightSlabs{
@@ -171,9 +192,7 @@ background-color: rgb(216,216,216);
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-   
-    width: 65%;
-    margin: 2.5dvw  1.5dvw 2.5dvw  1.5dvw;
+    margin: 0dvw  1.2dvw 0dvw  1.2dvw;
 }
 .Slab2RightSlabsFoto{
     width: 35%;
