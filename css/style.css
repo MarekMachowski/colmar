@@ -3,45 +3,49 @@ html {
     color: rgb(74, 74, 74);
 }
 
-
-.logo{
+.logo {
     height: 4.5dvw;
 }
 
-.Font18{
+.Font18 {
     font-size: 1.2dvw;
 }
-.Font24{
+
+.Font24 {
     font-size: 1.4dvw;
 }
-.Font32{
-    font-size: 1.8dvw ;
+
+.Font32 {
+    font-size: 1.8dvw;
 }
-.Font36{
+
+.Font36 {
     font-size: 2.5dvw;
 }
-.Font28{
+
+.Font28 {
     font-size: 1.6dvw;
 }
 
-.Font42{
+.Font42 {
     font-size: 2.7dvw;
 }
 
-.Font52{
+.Font52 {
     font-size: 3.2dvw;
 }
-.MarginAll16{
-margin: 1dvw;
+
+.MarginAll16 {
+    margin: 1dvw;
 }
 
-.Margin24Bottom{
-margin-bottom: 1.5dvw;
+.Margin24Bottom {
+    margin-bottom: 1.5dvw;
 }
 
-.Margin8Bottom{
+.Margin8Bottom {
     margin-bottom: 0.5dvw;
-    }
+}
 
 
 .banner {
@@ -53,41 +57,44 @@ margin-bottom: 1.5dvw;
 }
 
 .bannerLeft {
-    left:  1.5dvw;
+    left: 1.5dvw;
     position: relative;
     display: flex;
     align-items: center;
 }
 
-.hover:hover{
-   
-        color: hotpink;
+.hover:hover {
+
+    color: hotpink;
 }
 
-.hover{
+.hover {
     text-decoration: none;
 
 }
-.StartColor{
-    color:white
+
+.White {
+    color: white
 }
+
+
 .colmar {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 700;
-   
+
 }
 
 .academy {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 300;
     color: rgb(158, 158, 158);
-     
+
 }
 
 .bannerRight {
     display: flex;
     position: relative;
-    right:  1.5dvw;
+    right: 1.5dvw;
     font-weight: 500;
     align-items: center;
 }
@@ -97,28 +104,28 @@ margin-bottom: 1.5dvw;
 }
 
 
-.Slab1{
-background-color: rgb(216,216,216);
+.Slab1 {
+    background-color: rgb(216, 216, 216);
     display: flex;
     position: relative;
 }
 
-.Slab1Left{
+.Slab1Left {
     width: 55%;
-    margin: 2.5dvw  1.5dvw 2.5dvw  1.5dvw;
+    margin: 2.5dvw 1.5dvw 2.5dvw 1.5dvw;
 }
 
-.Bold{
+.Bold {
     font-weight: bold;
 }
 
-.Slab1Foto{
+.Slab1Foto {
     width: 100%;
     display: flex;
     position: relative;
 }
 
-.Slab1Right{
+.Slab1Right {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -126,74 +133,136 @@ background-color: rgb(216,216,216);
     flex-wrap: wrap;
     align-content: center;
     width: 30%;
-    
 }
 
-.Slab1Start{
+.Slab1Start {
     display: flex;
     justify-content: center;
     padding: 0.6dvw 0dvw 0.6dvw 0dvw;
     color: white;
 }
 
-.Button{
-   background-color: rgb(74,74,74);
+.Button {
+    background-color: rgb(74, 74, 74);
 }
 
-.Slab2{
+.Slab2 {
     display: flex;
     position: relative;
-
-    
 }
-.Slab2Left{
+
+.Slab2Left {
     display: flex;
     position: relative;
     width: 55%;
     flex-direction: column;
-    margin: 0dvw  1.5dvw 2.5dvw  1.5dvw;
+    margin: 0dvw 1.5dvw 2.5dvw 1.5dvw;
 }
-.Slab2LeftFoto{
-    
+
+.Slab2LeftFoto {
+
     display: flex;
     position: relative;
-    margin: 2.5dvw 0dvw 2.5dvw  0dvw;
+    margin: 2.5dvw 0dvw 2.5dvw 0dvw;
 }
 
 
-.Slab2Lefttxt{
+.Slab2Lefttxt {
     display: flex;
     position: relative;
     flex-direction: column;
-    margin: 0dvw  1.5dvw 2.5dvw  0dvw;
+    margin: 0dvw 1.5dvw 2.5dvw 0dvw;
 }
 
-.Slab2Right{
+.Line {
+    border-left: 0.1dvw solid rgb(216, 216, 216);
+}
+
+.Slab2Right {
     display: flex;
     position: relative;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    
-    border: 0.1dvw solid rgb(216,216,216);
-    margin: 1.5dvw  0dvw 2.5dvw  0dvw;
+    margin: 1.5dvw 0dvw 2.5dvw 0dvw;
     width: 45%;
 }
 
-.Slab2RightSlabs{
+.Slab2RightSlabs {
     display: flex;
-     
-   
-
 }
-.Slab2RightSlabsTxt{
+
+.Slab2RightSlabsTxt {
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0dvw  1.2dvw 0dvw  1.2dvw;
+    margin: 0dvw 1.2dvw 0dvw 1.2dvw;
 }
-.Slab2RightSlabsFoto{
+
+.Slab2RightSlabsFoto {
     width: 35%;
+}
+
+.Slab3 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: rgb(216, 216, 216);
+
+}
+
+.Slab3headtxt {
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 1.8dvw 0dvw 1.8dvw 0dvw;
+
+}
+
+.MarginCourses{
+    margin: 0.5dvw 0 0.5dvw 0; 
+}
+
+.Slab3Grid {
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+}
+
+.Slab3Line {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0dvw 1.2dvw 0dvw 1.2dvw;
+
+}
+
+.Slab3Cell {
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 1dvw 1dvw 1dvw 1dvw;
+    background-color: white;
+}
+
+.Slab3Foto {
+    height: auto;
+    width: 100%;
+}
+
+.Slab3txtColumn {
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 1.2dvw 1.2dvw 1.4dvw 1.2dvw;
 }
