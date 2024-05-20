@@ -190,6 +190,7 @@ html {
 
 .Slab2RightSlabs {
     display: flex;
+    width: fit-content;
 }
 
 .Slab2RightSlabsTxt {
@@ -246,7 +247,7 @@ html {
 }
 
 .Slab3Cell {
-
+width: 31%;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -255,8 +256,8 @@ html {
 }
 
 .Slab3Foto {
-    height: auto;
-    width: 100%;
+    width: a;
+    
 }
 
 .Slab3txtColumn {
